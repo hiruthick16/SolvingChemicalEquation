@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Equation Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Chemical Equation Game</h1>
+        <div id="question-container">
+            <p id="question">What is the product of the reaction?</p>
+        </div>
+        <div id="options-container">
+            <button class="option" id="option1">Option 1</button>
+            <button class="option" id="option2">Option 2</button>
+            <button class="option" id="option3">Option 3</button>
+            <button class="option" id="option4">Option 4</button>
+        </div>
+        <div id="feedback"></div>
+        <div id="scoreboard">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+        <button id="start-button">Start Game</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
